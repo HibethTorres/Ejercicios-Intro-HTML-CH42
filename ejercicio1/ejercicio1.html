@@ -4,36 +4,63 @@ No olvides colocar un comentario por cada cosa que modifiques-->
 <!DOCTYPE html>
 <html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-->
 <!-- Falta indentacion y formato-->
+
 <head>
     <meta charset="UTF-8"> <!--Las comillas son incorrectas y el valor debe ser 8, no 65-->
-    <title>Ejercicio HTML - Corrige los errores</title> <!-- Debe ser un title -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
+    <title>Ejercicio HTML - Corrige los errores</title> <!-- Debe ser un title -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Roboto:wght@400;700&amp;display=swap"
+        rel="stylesheet">
 </head>
 
-<title>World Wide Web</title>
+<!-- <title>World Wide Web</title> YA TENEMOS UN TITLE, y esta frase se debe usar como un encabezado -->
 
-<body>
+<body
+    style="background-image: url(&quot;../resources/sakura.jpg&quot;); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./ejercicio1.html">Exercise 1</a></li>
+                <li><a href="../aboutme/aboutme.html">Acerca de mi</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>World Wide Web</h1>
 
-    <p>
-        En informática, la <strong>World Wide Web</strong> <!-- Falta el cierre correcto de la etiqueta h2 -->(WWW) o red informática mundial comúnmente conocida como la
+    <main>
+        <div class="container">
+
+            <h1>World Wide Web</h1>
+
+            <p>
+                En informática, la <strong>World Wide Web</strong>
+                <!-- Falta el cierre correcto de la etiqueta h2 -->(WWW) o red informática mundial comúnmente conocida
+                como la
                 web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y
                 accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web
                 que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas
                 páginas usando hiperenlaces.
 
-                <h2>Historia</h2><!-- Falta el cierre correcto de la etiqueta h2 -->
+            <h2>Historia</h2><!-- Falta el cierre correcto de la etiqueta h2 -->
 
-                        <p>
-                            La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee
-                            con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN</em> <!-- Faltaba el cierre del em -->en Ginebra, Suiza,
-                                y publicado en 1992.
-                        </p>
+            <p>
+                La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee
+                con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN</em>
+                <!-- Faltaba el cierre del em -->en Ginebra, Suiza,
+                y publicado en 1992.
+            </p>
 
-                        <p>Fuente: <em>Wikipedia</em></p> <!-- Los cierres de etiquetas estaban incorrectos (al reves) -->
-    
- </body>
+            <p>Fuente: <em>Wikipedia</em></p> <!-- Los cierres de etiquetas estaban incorrectos (al reves) -->
+            </p> <!-- Fatlaba cierre de parrafo -->
+
+        </div>
+    </main>
+</body>
+
 </html>
-<!-- El cierre de la etiqueta head estaba mal ubicado, debe ir antes del body -->                       
+<!-- El cierre de la etiqueta head estaba mal ubicado, debe ir antes del body -->

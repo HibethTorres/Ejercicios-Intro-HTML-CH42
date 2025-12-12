@@ -1,3 +1,5 @@
+/* CSS Home */
+
 body{
     flex-direction: column;
     margin: 0;
@@ -63,9 +65,8 @@ main {
 
 .footer {
   text-align: center;
-  padding: .2rem 0;
+  padding: .1rem 0;
   margin-top: 0rem;
-  border-top: 3px solid #f279e8;
   opacity: 0.8;
   font-size: 0.9rem;
 }
