@@ -63,28 +63,55 @@ main {
 .container {
     background: rgba(255, 255, 255, 0.603);
     backdrop-filter: blur(3px);
-    padding: 4px;
+    padding: 10px;
+    margin-top: 80px;
     border-radius: 15px;
     max-width: 1500px;
+    max-height: 1000px;
     width: 85%;
     text-align: center;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    margin: 20px;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.top-music ol {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .title1{
-  font-size: 30px;
+    font-size: 30px;
     color: #f7f0f5;
     margin-bottom: 10px;
     margin-top: 10px;
     text-shadow: 0 0 10px #fc06be;
 }
 
-#photo {
-    width: 120px;
-    height: 200px;
-    border-radius: 50%;
+
+.title2{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #ff78dd;
     margin-bottom: 20px;
 }
+
+#photo {
+    width: 150px; /* Ajusta el tamaño */
+    aspect-ratio: .8; /* Mantiene la proporción */
+    border-radius: 50%; /* Para la forma circular base */
+    margin-bottom: 20px;
+}
+
 
 .footer {
   text-align: center;
